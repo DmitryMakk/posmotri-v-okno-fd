@@ -173,7 +173,6 @@ ol {
   text-overflow: ellipsis;
   line-height: 16.2px; 
   overflow: hidden;
-  white-space: nowrap;
   display: -webkit-box; 
   -webkit-box-orient: vertical; 
   line-clamp: 4; 
@@ -298,11 +297,11 @@ button:active {
 }
 
 .content__card-link:hover .content__video-card-title {
-  text-decoration: underline solid white 2px;
-  text-underline-offset: 4px;
+  text-decoration: underline solid white 5px;
+  text-underline-offset: 1px;
 }
 
 .content__card-link:hover .content__video-card-description {
   text-decoration: underline solid white 1px;
-  text-underline-offset: 4px;
+  text-underline-offset: 1px;
 }
